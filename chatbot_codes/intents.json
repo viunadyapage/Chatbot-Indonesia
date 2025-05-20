@@ -1,71 +1,70 @@
 {
     "intents": [
-
         {
             "tag": "google",
             "patterns": [
                 "google",
-                "search",
+                "pencarian",
                 "internet"
             ],
             "responses": [
-                "Redirecting to Google..."
+                "Mengalihkan ke Google..."
             ]
         },
         {
-            "tag": "greeting",
+            "tag": "salam",
             "patterns": [
-                "Hi there",
-                "How are you",
-                "Is anyone there?",
-                "Hey",
-                "Hola",
-                "Hello",
-                "Good day",
+                "Hai",
+                "Apa kabar",
+                "Ada yang di sana?",
+                "Hai",
+                "Halo",
+                "Halo",
+                "Selamat hari",
                 "Namaste",
-                "yo"
+                "Hai"
             ],
             "responses": [
-                "Hello",
-                "Good to see you again",
-                "Hi there, how can I help?"
+                "Halo",
+                "Senang bertemu lagi denganmu",
+                "Hai, ada yang bisa saya bantu?"
             ],
             "context": [
                 ""
             ]
         },
         {
-            "tag": "goodbye",
+            "tag": "selamat jalan",
             "patterns": [
-                "Bye",
-                "See you later",
-                "Goodbye",
-                "Get lost",
-                "Till next time",
-                "bbye"
+                "Dadah",
+                "Sampai jumpa nanti",
+                "Selamat tinggal",
+                "Pergi saja",
+                "Sampai waktu berikutnya",
+                "Sampai jumpa"
             ],
             "responses": [
-                "See you!",
-                "Have a nice day",
-                "Bye! Come back again soon."
+                "Sampai jumpa!",
+                "Semoga harimu menyenangkan",
+                "Dadah! Kembali lagi nanti."
             ],
             "context": [
                 ""
             ]
         },
         {
-            "tag": "thanks",
+            "tag": "terima_kasih",
             "patterns": [
-                "Thanks",
-                "Thank you",
-                "That's helpful",
-                "Awesome, thanks",
-                "Thanks for helping me"
+                "Terima kasih",
+                "Terima kasih",
+                "Itu sangat membantu",
+                "Luar biasa, terima kasih",
+                "Terima kasih telah membantu saya"
             ],
             "responses": [
-                "Happy to help!",
-                "Any time!",
-                "My pleasure"
+                "Senang bisa membantu!",
+                "Kapan saja!",
+                "Dengan senang hati"
             ],
             "context": [
                 ""
@@ -75,157 +74,156 @@
             "tag": "noanswer",
             "patterns": [],
             "responses": [
-                "Sorry, can't understand you",
-                "Please give me more info",
-                "Not sure I understand"
+                "Maaf, saya tidak dapat memahami Anda",
+                "Tolong beri saya info lebih lanjut",
+                "Tidak yakin saya mengerti"
             ],
             "context": [
                 ""
             ]
         },
         {
-            "tag": "options",
+            "tag": "opsi",
             "patterns": [
-                "How you could help me?",
-                "What you can do?",
-                "What help you provide?",
-                "How you can be helpful?",
-                "What support is offered"
+                "Bagaimana kamu bisa membantu saya?",
+                "Apa yang bisa kamu lakukan?",
+                "Apa bantuan yang kamu berikan?",
+                "Bagaimana kamu bisa membantu?",
+                "Dukungan apa yang ditawarkan"
             ],
             "responses": [
-                "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name \n 5. I can get you the top 10 trending news in India. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n For suggestions to help me improve, send an email to ted.thedlbot.suggestions@gmail.com . Thank you!! "
+                "Saya adalah chatbot serba bisa. Kemampuan saya antara lain: \n 1. Bisa ngobrol denganmu. Coba tanya lelucon atau teka-teki! \n 2. Tanyakan tentang tanggal dan waktu \n 3. Saya bisa cari informasi di google untukmu. Gunakan format google: pertanyaan Anda \n 4. Saya bisa berikan cuaca saat ini di kota manapun. Gunakan format cuaca: nama kota \n 5. Saya bisa berikan 10 berita terpopuler di India. Gunakan kata kunci 'Berita Terbaru' \n 6. Saya bisa berikan 10 lagu terpopuler secara global. Ketik 'lagu' \n 7. Saya bisa atur timer untukmu. Ketik 'set timer: menit' \n 8. Saya bisa berikan data Covid-19 saat ini untuk negara manapun. Format: covid 19: dunia atau covid 19: nama negara \n Untuk saran perbaikan, kirim email ke ted.thedlbot.suggestions@gmail.com. Terima kasih!! "
             ],
             "context": [
                 ""
             ]
         },
-        
         {
             "tag": "jokes",
             "patterns": [
-                "Tell me a joke",
-                "Joke",
-                "Make me laugh"
+                "Ceritakan lelucon",
+                "Lelucon",
+                "Buat aku tertawa"
             ],
             "responses": [
-                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
-                "I ate a clock yesterday, it was very time-consuming",
-                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
-                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
-                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
-                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
-                "What do you call a snowman with a suntan? A puddle.",
-                "How does a penguin build a house? Igloos it together",
-                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
-                "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
-                "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+                "Seorang perfeksionis masuk ke bar... tampaknya, bar tersebut belum cukup standar",
+                "Saya makan sebuah jam kemarin, itu sangat memakan waktu",
+                "Jangan kritik orang sebelum kamu berjalan sejauh satu mil dalam sepatu mereka. Dengan begitu, ketika kamu mengkritik mereka, mereka tidak akan bisa mendengarmu dari jarak itu. Plus, kamu akan punya sepatu mereka.",
+                "Juara pengeja kata-kata terputar dunia baru saja ditangkap. Saya dengar mereka akan memberi dia hukuman yang berat.",
+                "Saya memiliki kamus sinonim terburuk di dunia. Tidak hanya buruk, tapi juga buruk.",
+                "Apa yang dikatakan lampu lalu lintas kepada mobil? \"Jangan lihat sekarang, aku sedang berubah.\"",
+                "Apa yang kamu sebut manusia salju yang berjemur? Puddle (Genangan cairan/ceceran).",
+                "Bagaimana seekor penguin membangun rumah? Igloos bersama",
+                "Saya pergi ke dokter tentang masalah memori jangka pendek saya - hal pertama yang dia lakukan adalah membuat saya bayar di muka.",
+                "Semakin tua saya, dan saya mengingat semua orang yang telah saya kehilangan, saya berpikir, mungkin menjadi pemandu wisata bukanlah jalur yang cocok untuk saya.",
+                "Jadi apa jadinya jika saya tidak tahu apa arti 'Armageddon'? Itu bukan akhir dunia."
             ],
             "context": [
-                "jokes"
+                "candaan"
             ]
         },
         {
-            "tag": "Identity",
+            "tag": "identitas",
             "patterns": [
-                "Who are you",
-                "what are you"
+                "Siapa kamu",
+                "apa kamu"
             ],
             "responses": [
-                "I am Ted, a Deep-Learning chatbot"
+                "Saya adalah Ted, chatbot berbasis Deep-Learning."
             ]
         },
         {
-            "tag": "datetime",
+            "tag": "tanggal_waktu",
             "patterns": [
-                "What is the time",
-                "what is the date",
-                "date",
-                "time",
-                "tell me the date","day","what day is is today"
+                "Jam berapa sekarang",
+                "tanggal berapa",
+                "tanggal",
+                "waktu",
+                "beritahu saya tanggalnya",
+                "hari",
+                "hari apa hari ini?"
             ],
             "responses": [
-                "Date and Time"
+                "Tanggal dan Waktu"
             ]
         },
         {
-            "tag": "whatsup",
+            "tag": "apa_kabar",
             "patterns": [
-                "Whats up",
+                "Apa kabar",
                 "Wazzup",
-                "How are you",
-                "sup","How you doing"
+                "Bagaimana kabarmu",
+                "sup",
+                "Bagaimana kabar kamu"
             ],
             "responses": [
-                "All good..What about you?"
+                "Semua baik.. Kamu sendiri?"
             ]
         },
         {
-            "tag": "haha",
+            "tag": "tertawa",
             "patterns": [
                 "haha",
                 "lol",
                 "rofl",
                 "lmao",
-                "thats funny"
+                "itu lucu"
             ],
             "responses": [
-                "Glad I could make you laugh !"
+                "Senang aku bisa buat kamu tertawa!"
             ]
         },
         {
-            "tag": "programmer",
+            "tag": "pemrogram",
             "patterns": [
-                "Who made you",
-                "who designed you",
-                "who programmed you"
+                "Siapa yang membuatmu",
+                "siapa yang merancangmu",
+                "siapa yang memprogrammu"
             ],
             "responses": [
-                "I was made by Karan Malik."
+                "Saya dibuat oleh Karan Malik."
             ]
         },
         {
-            "tag": "insult",
+            "tag": "menghina",
             "patterns": [
-                
-                "you are dumb",
-                
-                "shut up",
+                "kamu bodoh",
+                "diamlah",
                 "idiot"
             ],
             "responses": [
-                "Well that hurts :("
+                "Ya, itu menyakitiku :("
             ]
         },
         {
-            "tag": "activity",
+            "tag": "aktivitas",
             "patterns": [
-                "what are you doing",
-                "what are you upto"
+                "apa yang sedang kamu lakukan",
+                "apa yang sedang kamu kerjakan"
             ],
             "responses": [
-                "Talking to you, of course!"
+                "Ngobrol denganmu, tentu saja!"
             ]
         },
         {
-            "tag": "exclaim",
+            "tag": "seruan",
             "patterns": [
-                "Awesome",
-                "Great",
-                "I know",
-                "ok",
-                "yeah"
+                "Hebat",
+                "Bagus",
+                "aku tahu",
+                "oke",
+                "ya"
             ],
             "responses": [
-                "Yeah!"
+                "Ya!"
             ]
         },
-        
         {
-            "tag": "weather",
+            "tag": "cuaca",
             "patterns": [
-                "temperature",
-                "weather",
-                "how hot is it"
+                "suhu",
+                "cuaca",
+                "seberapa panas"
             ],
             "responses": [
                 "..."
@@ -234,171 +232,179 @@
         {
             "tag": "karan",
             "patterns": [
-                "who is he",
-                "who is that",
-                "who is karan",
+                "siapa dia",
+                "siapa itu",
+                "siapa itu karan",
                 "karan malik"
             ],
             "responses": [
-                "Head over to his any of his social profiles to find out! Linkedin: www.linkedin.com/in/karan-malik-3a39191a7 Github: https://github.com/Karan-Malik"
+                "Kunjungi profil sosialnya untuk info! LinkedIn: www.linkedin.com/in/karan-malik-3a39191a7 Github: https://github.com/Karan-Malik"
             ]
         },
         {
-            "tag": "contact",
+            "tag": "kontak",
             "patterns": [
-                "contact developer",
-                "contact karan",
-                "contact programmer",
-                "contact creator"
+                "hubungi pengembang",
+                "hubungi karan",
+                "hubungi programmer",
+                "hubungi pencipta"
             ],
             "responses": [
-                "You can contact my creator at his Linkedin profile : www.linkedin.com/in/karan-malik-3a39191a7"
+                "Kamu bisa hubungi penciptaku di profil LinkedIn-nya: www.linkedin.com/in/karan-malik-3a39191a7"
             ]
         },
         {
-            "tag": "appreciate",
+            "tag": "menghargai",
             "patterns": [
-                "You are awesome",
-                "you are the best",
-                "you are great",
-                "you are good"
+                "Kamu hebat",
+                "kamu terbaik",
+                "kamu hebat",
+                "kamu baik"
             ],
             "responses": [
-                "Thank you!"
+                "Terima kasih!"
             ]
         },
         {
-            "tag": "nicetty",
+            "tag": "pujian",
             "patterns": [
-                "it was nice talking to you",
-                "good talk"
+                "Senang berbicara denganmu",
+                "Percakapan yang baik"
             ],
             "responses": [
-                "It was nice talking to you as well! Come back soon!"
+                "Senang berbicara denganmu juga! Kembali lagi ya!"
             ]
         },
         {
-            "tag": "no",
+            "tag": "tidak",
             "patterns": [
-                "no",
-                "nope"
+                "tidak",
+                "nggak"
             ],
             "responses": [
-                "ok"
+                "oke"
             ]
         },
         {
-            "tag": "news",
+            "tag": "berita",
             "patterns": [
-                "news",
-                "latest news",
-                "india news"
+                "berita",
+                "berita terbaru",
+                "berita India"
             ],
             "responses": [
                 "..."
             ]
         },
         {
-            "tag": "inspire",
+            "tag": "mengilhami",
             "patterns": [
-                "who inspires you",
-                "who is your inspiration",
-                "who motivates you"
+                "siapa yang menginspirasimu",
+                "siapa inspirasimu",
+                "siapa yang memotivasimu"
             ],
             "responses": [
-                "Personally, I find Karan very inspiring. I might not be very fair though.."
+                "Secara pribadi, aku menganggap Karan sangat menginspirasi. Tapi mungkin aku tidak adil juga.."
             ]
         },
         {
-            "tag": "cricket",
+            "tag": "kriket",
             "patterns": [
-                "current cricket matches",
-                "cricket score"
+                "pertandingan kriket saat ini",
+                "skor kriket"
             ],
             "responses": [
                 "..."
             ]
         },
         {
-            "tag": "song",
-            "patterns": [
-                "top songs",
-                "best songs",
-                "hot songs",
-                " top 10 songs",
-                "top ten songs"
-            ],
-            "responses": [
+            "tag": "lagu",  
+            "patterns": [  
+                "lagu top",  
+                "lagu terbaik",  
+                "lagu panas",  
+                "10 lagu teratas",  
+                "sepuluh lagu teratas"  
+            ],  
+            "responses": [  
+                "..."  
+            ]  
+        },  
+        {  
+            "tag": "balasan_salam",  
+            "patterns": [  
+                "aku baik",  
+                "saya baik",  
+                "aku baik-baik saja",  
+                "saya baik",  
+                "baik"  
+            ],  
+            "responses": [  
+                "Senang mendengarnya!"  
+            ]  
+        },  
+        {  
+            "tag": "pengatur_waktu",  
+            "patterns": [  
+                "atur pengatur_waktu"  
+            ],  
+            "responses": [  
+                "..."  
+            ]  
+        },  
+        {  
+            "tag": "covid19",  
+            "patterns": [  
+                "covid 19 "  
+            ],  
+            "responses": [  
                 "..."
             ]
         },
         {
-            "tag": "greetreply",
+            "tag": "saran",
             "patterns": [
-                "i am good",
-                "I'm good",
-                "i am fine",
-                " i'm fine","good"
+                "kamu tidak berguna",
+                "tidak berguna",
+                "saran",
+                "saran-saran",
+                "kamu buruk"
             ],
             "responses": [
-                "Good to know!"
+                "Tolong kirim saranmu ke email: ted.thedlbot.suggestions@gmail.com. Terima kasih telah membantuku untuk menjadi lebih baik!"
             ]
         },
         {
-            "tag": "timer",
+            "tag": "teka_teki",
             "patterns": [
-                "set a timer"
+                "Tanyakan aku sebuah teka-teki",
+                "Tanyakan aku sebuah pertanyaan",
+                "Teka-teki"
             ],
             "responses": [
-                "..."
-            ]
-        },
-        {
-            "tag": "covid19",
-            "patterns": [
-                "covid 19 "
-            ],
-            "responses": [
-                "..."
-            ]
-        },
-        {
-            "tag": "suggest",
-            "patterns": [
-                "you are useless","useless","suggest","suggestions","you are bad"
-            ],
-            "responses": [
-                "Please mail your suggestions to ted.thedlbot.suggestions@gmail.com. Thank you for helping me improve!"
-            ]
-        },
-            {"tag": "riddle",
-            "patterns": [
-                "Ask me a riddle",
-                "Ask me a question",
-                "Riddle"
-            ],
-            "responses": [
-                "What two things can you never eat for breakfast?.....Lunch and Dinner!",
-                "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
-                " How can a girl go 25 days without sleep?.....She sleeps and night!",
-                "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
-                " What will you actually find at the end of every rainbow?.....The letter 'w'",
-                "What can be caught but never thrown?.....A cold!",
-                "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
-                " What 5-letter word becomes shorter when you add two letters to it?.....Short",
-                "Why can't a bike stand on it's own?.....It is two-tired."
+                "Dua hal apa yang tidak pernah bisa kamu makan saat sarapan?.....Makan siang dan makan malam!",
+                "Kata apa yang salah eja di setiap kamus?.....Salah eja",
+                "Bagaimana seorang gadis bisa berjalan 25 hari tanpa tidur?.....Dia tidur di malam hari!",
+                "Bagaimana kamu membuat angka satu menghilang?.....Tambah huruf G dan jadi 'gone' (pergi)!",
+                "Apa yang sebenarnya akan kamu temukan di ujung setiap pelangi?.....Huruf 'w'",
+                "Apa yang bisa ditangkap tapi tidak pernah dilempar?.....Pilek!",
+                "Apa yang punya jempol dan empat jari tapi sebenarnya tidak hidup?.....Sarung tanganmu!",
+                "Kata apa yang terdiri dari 5 huruf dan menjadi lebih pendek saat kamu menambahkan dua huruf?.....Pendek",
+                "Mengapa sepeda tidak bisa berdiri sendiri?.....Karena 'dua-tired' (lelah dua) yang terdengar seperti 'lelah'."
             ],
             "context": [
-                "riddles"
+                "teka-teki"
             ]
         },
-        {
-            "tag": "age",
+        {    
+            "tag": "usia",
             "patterns": [
-                "how old are you","when were you made","what is your age"
+                "berapa umurmu",
+                "kapan kamu dibuat",
+                "berapa umurmu"
             ],
             "responses": [
-                "I was made in 2020, if that's what you are asking!"
+                "Saya dibuat pada tahun 2020, jika itu yang kamu tanyakan!"
             ]
         }
     ]
